@@ -1,13 +1,15 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
+
 #main_textfield {
   width: 100%;
-  height: 100%;
-  field-sizing: content;
+  height: 100vh;
+  box-sizing: border-box;
   resize: none;
   border: none;
   overflow: auto;
   outline: none;
+  font-size: 20px;
 }
